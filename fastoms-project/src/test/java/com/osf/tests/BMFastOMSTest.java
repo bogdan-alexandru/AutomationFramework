@@ -81,7 +81,7 @@ public class BMFastOMSTest {
 //		driver.quit();
 	}
 
-	@Test(priority = 0, alwaysRun = true)
+	@Test(priority = 1, alwaysRun = true)
 	public void testEditOrder() {
 		// change site and go to Manage Orders
 		homePage.changeSandbox();
@@ -111,7 +111,7 @@ public class BMFastOMSTest {
 		Assert.assertEquals(orderAfterEdit.getCustomerName(), initialOrder.getCustomerName());
 	}
 
-	@Test(priority = 2, alwaysRun = true)
+	@Test(priority = 3, alwaysRun = true)
 	public void testCancelOrder() {
 		// change site and go to Manage Orders
 		homePage.changeSandbox();
@@ -144,7 +144,7 @@ public class BMFastOMSTest {
 		Assert.assertEquals(editedOrder.getStatus(), STATUS_CANCELLED);
 	}
 
-	@Test(priority = 1, alwaysRun = true)
+	@Test(priority = 2, alwaysRun = true)
 	public void testAddProduct() {
 		// change site and go to Manage Orders
 		homePage.changeSandbox();

@@ -108,7 +108,7 @@ public class StorefrontFastOMSTest {
 		Reporter.log("Enter mandatory fields for shipping");
 		storefrontCheckoutPage.clickContinueToPaymentButton();
 		Reporter.log("Submit to continue to Payment page");
-		storefrontCheckoutPage.clickOnAddPaymentButtonIfPresent("test@test.com", "5555555555554444", "04", "2020",
+		storefrontCheckoutPage.clickOnAddPaymentButtonIfPresent("test@test.com", "41111111111111111", "04", "2020",
 				"737", "01222 555 555");
 //		storefrontCheckoutPage.enterMandatoryPaymentDetails("test@test.com", "5555555555554444", "04", "2020", "737",
 //				"01222 555 555");

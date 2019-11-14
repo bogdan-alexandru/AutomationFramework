@@ -16,5 +16,6 @@ public class StorefrontCartPage extends BasePage {
 
 	public void clickCheckoutButton() {
 		clickElementWithJS(checkoutButtonSelector);
+		wait(3);
 	}
 }

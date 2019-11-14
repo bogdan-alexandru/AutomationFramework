@@ -61,5 +61,6 @@ public class StorefrontProductDetailsPage extends BasePage {
 
 	public void clickAddToCartButton() {
 		clickElementWithJS(addToCartButtonSelector);
+		wait(3);
 	}
 }

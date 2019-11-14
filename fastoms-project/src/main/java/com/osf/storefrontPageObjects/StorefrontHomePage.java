@@ -28,6 +28,7 @@ public class StorefrontHomePage extends BasePage {
 
 	public void clickOnMinicartIcon() {
 		clickElementWithJS(minicartIconSelector);
+		wait(3);
 	}
 
 	public void clickAcceptTrackingConsentButton() {

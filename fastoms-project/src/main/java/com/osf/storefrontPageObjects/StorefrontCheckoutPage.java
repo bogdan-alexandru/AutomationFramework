@@ -119,6 +119,7 @@ public class StorefrontCheckoutPage extends BasePage {
 
 	public void clickOnContinueToOrderConfirmButton() {
 		clickElementWithJS(continueToOrderConfirmButtonSelector);
+		wait(5);
 	}
 
 	public void clickOnPlaceOrderButton() {
